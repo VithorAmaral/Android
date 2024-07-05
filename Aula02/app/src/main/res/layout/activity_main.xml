@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="333dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marque o item e digite a quantidade" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_tacas"
+                android:layout_width="233dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Taças: R$"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/et_tacas"
+                android:layout_width="73dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:text="0"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_pratos"
+                android:layout_width="233dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pratos: R$"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/et_pratos"
+                android:layout_width="73dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:text="0"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_garfos"
+                android:layout_width="233dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Garfos: R$"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/et_garfos"
+                android:layout_width="73dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:text="0"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_facas"
+                android:layout_width="233dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Facas: R$"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/et_facas"
+                android:layout_width="73dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:text="0"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_calcular"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:onClick="Calcular"
+            android:text="Calcular" />
+
+        <TextView
+            android:id="@+id/tv_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor total: R$:"
+            android:textSize="20sp"
+            app:fontFamily="sans-serif"
+            app:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_sobre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="abrir_tela_sobre"
+            android:text="SOBRE" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

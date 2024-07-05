@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Galeria</string>
+    <string name="login_title">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="user_logged">User logged</string>
+    <string name="error">Error</string>
+    <string name="wrong_user">User or Password does not match!</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
+    <string name="image">image</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Criando intents</string>
+    <string name="go_to_second_activity_button">GO TO SECOND ACTIVITY</string>
+</resources>

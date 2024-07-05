@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ATP</string>
+    <string name="login_title">LOGIN</string>
+    <string name="password">Senha</string>
+    <string name="login">Login</string>
+    <string name="username">Nome</string>
+    <string name="error">Erro</string>
+    <string name="wrong_user">Nome ou Senha incorretos!</string>
+</resources>

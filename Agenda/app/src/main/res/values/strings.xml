@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="attention">Attention</string>
+    <string name="empty_contact_alert_msg">The data will not be saved. Do you really want to go back?</string>
+    <string name="remove_contact">Contact Removed</string>
+    <string name="undo">Undo</string>
+</resources>

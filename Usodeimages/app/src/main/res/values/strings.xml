@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Uso de images</string>
+    <string name="main_image_content">Main Image</string>
+    <string name="change_image_switch">Change Image</string>
+</resources>
